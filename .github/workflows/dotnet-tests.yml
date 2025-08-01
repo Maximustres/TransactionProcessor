@@ -20,10 +20,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore api-transaction.sln
 
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
+      - name: Build solution
+        run: dotnet build api-transaction.sln --configuration Debug --no-restore
 
       - name: Run tests
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test api-transaction.test/api-transaction.test.csproj --no-build --verbosity normal
