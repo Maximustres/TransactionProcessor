@@ -152,12 +152,6 @@ api_transaction/
 
 ---
 
-## 🧰 Pruebas
-
-> *(Opcional)* Agrega aquí tu estrategia de pruebas si desarrollas test unitarios o de integración.
-
----
-
 ## ✍️ Autor
 
 Luis Bustos  
