@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-transaction", "api-transaction\api-transaction.csproj", "{772381A0-E1ED-46EC-9C0C-6EDBAFB84615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-transaction.test", "api-transaction.test\api-transaction.test.csproj", "{6E2DB9FD-0F09-476F-948D-8FB4D9427C4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{772381A0-E1ED-46EC-9C0C-6EDBAFB84615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772381A0-E1ED-46EC-9C0C-6EDBAFB84615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772381A0-E1ED-46EC-9C0C-6EDBAFB84615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772381A0-E1ED-46EC-9C0C-6EDBAFB84615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2DB9FD-0F09-476F-948D-8FB4D9427C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2DB9FD-0F09-476F-948D-8FB4D9427C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2DB9FD-0F09-476F-948D-8FB4D9427C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2DB9FD-0F09-476F-948D-8FB4D9427C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2704BD70-B31C-4188-80B0-6CE7EBC97CC1}
+	EndGlobalSection
+EndGlobal
